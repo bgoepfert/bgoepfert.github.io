@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <title>Bastien Goepfert</title>
     <link rel="stylesheet" href="index.css" />
     <link
@@ -11,72 +12,220 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main id="main">
+        <a id="mail" href="mailto:bas.goepfert@gmail.com"><i class="icon ion-md-mail"></i></a>
       <section id="title">
         <span class="title-text">Bastien Goepfert</span>
         <br />
         <span class="subtitle-text">Software Engineer</span>
         <div class="mouse_scroll">
-
-            <div class="mouse">
-                <div class="wheel"></div>
-            </div>
-            <div>
-                <span class="m_scroll_arrows first"></span>
-                <span class="m_scroll_arrows second"></span>
-                <span class="m_scroll_arrows third"></span>
-            </div>
-    </div>
-      </section>
-      <section>
-        <h1 id="section-title">My expertise</h1>
-        <div id="expertise">
-            <div>
-              <div class="expertise-title-container">
-                <img
-                  src="assets/software.png"
-                  alt="react js icon"
-                />
-                <div class="magenta-gradient expertise-title">
-                  <span>Software</span><br />Development
-                </div>
-              </div>
-              <div class="expertise-body">
-                Experienced across the stack in building rich web, mobile and desktop applications within the JavaScript/TypeScript ecosystem.
-              </div>
-            </div>
-            <div>
-              <div class="expertise-title-container">
-                <img src="assets/react.svg" alt="react js icon" />
-                <div class="lake-gradient expertise-title">
-                  <span>Frontend</span><br />React, NextJS
-                </div>
-              </div>
-              <div class="expertise-body">
-                Passionate about UI/UX. Over 8 years of development experience in HTML, CSS, JS, and React frameworks and libraries, including NextJS.
-              </div>
-            </div>
-            <div>
-              <div class="expertise-title-container">
-                <img src="assets/node.svg" alt="react js icon" />
-                <div class="meadow-gradient expertise-title">
-                  <span>Backend</span><br />Node, SQL, MongoDB
-                </div>
-              </div>
-              <div class="expertise-body">
-                Skilled in designing and implementing performant, well-structured APIs in Node.js, and databases with MongoDB and SQL. 
-              </div>
-            </div>
+          <div class="mouse">
+            <div class="wheel"></div>
+          </div>
+          <div>
+            <span class="m_scroll_arrows first"></span>
+            <span class="m_scroll_arrows second"></span>
+            <span class="m_scroll_arrows third"></span>
+          </div>
         </div>
       </section>
       <section>
-        <h1 id="section-title">My Career</h1>
-        
+        <h1 class="section-title">My expertise</h1>
+        <div id="expertise">
+          <div>
+            <div class="expertise-title-container">
+              <img src="assets/software.png" alt="react js icon" />
+              <div class="magenta-gradient expertise-title">
+                <span>Software</span><br />Development
+              </div>
+            </div>
+            <div class="expertise-body">
+              Experienced across the stack in building rich web, mobile and
+              desktop applications within the JavaScript/TypeScript ecosystem.
+            </div>
+          </div>
+          <div>
+            <div class="expertise-title-container">
+              <img src="assets/react.svg" alt="react js icon" />
+              <div class="lake-gradient expertise-title">
+                <span>Frontend</span><br />React, NextJS
+              </div>
+            </div>
+            <div class="expertise-body">
+              Passionate about UI/UX. Over 8 years of development experience in
+              HTML, CSS, JS, React and many related frameworks and libraries,
+              including NextJS.
+            </div>
+          </div>
+          <div>
+            <div class="expertise-title-container">
+              <img src="assets/node.svg" alt="react js icon" />
+              <div class="meadow-gradient expertise-title">
+                <span>Backend</span><br />Node, SQL, MongoDB
+              </div>
+            </div>
+            <div class="expertise-body">
+              Skilled in designing and implementing performant, well-structured
+              APIs in Node.js, and databases with MongoDB and SQL.
+            </div>
+          </div>
+        </div>
       </section>
+
+      <!-- Career -->
+      <section>
+        <div class="container">
+          <div class="accordion">
+            <div class="accordion-item" id="job1">
+              <a class="accordion-link" href="#job1">
+                <div class="accordion-link-container">
+                  <div class="accordion-link-title">
+                    <h3 class="accordion-link-company">
+                      Senior Software Engineer @ FundingTech
+                    </h3>
+                    <h3 class="accordion-link-years">
+                      Aug 2021 - Jan 2022 (1y 5m)
+                    </h3>
+                  </div>
+                  <ul>
+                    <li>#TypeScript</li>
+                    <li>#Node.js</li>
+                    <li>#React</li>
+                    <li>#NextJS</li>
+                    <li>#MongoDB</li>
+                    <li>#AWS</li>
+                  </ul>
+                </div>
+                <i class="icon ion-md-arrow-forward"></i>
+                <i class="icon ion-md-arrow-down"></i>
+              </a>
+              <div class="description">
+                <a  target="_blank" href="https://fundingtech.io/"><i class="icon ion-md-open"></i> fundingtech.io<a>
+                <p>
+                  Led a small team in the development of an end-to-end SaaS
+                  application for commercial property loan management.
+                </p>
+                <p>
+                  Some of my noteworthy contributions were championing TDD,
+                  resulting in a 68% increase in test coverage, as well as
+                  implementing a component library with storybook, improving
+                  development workflows.
+                </p>
+              </div>
+              <hr />
+            </div>
+            <div class="accordion-item" id="job2">
+              <a class="accordion-link" href="#job2">
+                <div class="accordion-link-container">
+                  <div class="accordion-link-title">
+                    <h3 class="accordion-link-company">
+                      Software Engineer @ Beyond Essential Systems
+                    </h3>
+                    <h3 class="accordion-link-years">
+                      Oct 2018 - Aug 2021 (2y 10m)
+                    </h3>
+                  </div>
+                  <ul>
+                    <li>#React</li>
+                    <li>#React Native</li>
+                    <li>#Node.js</li>
+                    <li>#PostgreSQL</li>
+                    <li>#AWS</li>
+                  </ul>
+                </div>
+                <i class="icon ion-md-arrow-forward"></i>
+                <i class="icon ion-md-arrow-down"></i>
+              </a>
+              <div class="description">
+                <a  target="_blank" href="https://www.beyondessential.com.au/"><i class="icon ion-md-open"></i> beyondessential.com.au<a>
+                <p>
+                  Advanced data aggregation, analytics, and visualisation tools
+                  for health vectors in the Indo-Pacific region, where I learnt
+                  to work with large datasets from external sources, as well as
+                  GIS mapping.
+                </p>
+                <p>
+                  I also worked on an offline-first Electronic Medical Record
+                  system, including a desktop and mobile application, to support
+                  low-resource and remote settings.
+                </p>
+              </div>
+              <hr />
+            </div>
+            <div class="accordion-item" id="job3">
+              <a class="accordion-link" href="#job3">
+                <div class="accordion-link-container">
+                  <div class="accordion-link-title">
+                    <h3 class="accordion-link-company">
+                      Software Engineer @ Be Collective
+                    </h3>
+                    <h3 class="accordion-link-years">
+                      Jun 2016 - Oct 2018 (2y 4m)
+                    </h3>
+                  </div>
+                  <ul>
+                    <li>#React</li>
+                    <li>#Node.js</li>
+                    <li>#PostgreSQL</li>
+                    <li>#Elasticsearch</li>
+                    <li>#AWS</li>
+                  </ul>
+                </div>
+                <i class="icon ion-md-arrow-forward"></i>
+                <i class="icon ion-md-arrow-down"></i>
+              </a>
+              <div class="description">
+                <a  target="_blank" href="https://www.becollective.com/"><i class="icon ion-md-open"></i> becollective.com<a></a>
+                <p>
+                  Volunteer sourcing and management software, where I designed,
+                  implemented and owned the in-app instant messaging and
+                  notifications services built on WebSockets.
+                </p>
+              </div>
+              <hr />
+            </div>
+            <div class="accordion-item" id="job4">
+              <a class="accordion-link" href="#job4">
+                <div class="accordion-link-container">
+                  <div class="accordion-link-title">
+                    <h3 class="accordion-link-company">
+                      Junior Developer @ Shareable Apps
+                    </h3>
+                    <h3 class="accordion-link-years">
+                      May 2014 - May 2016 (2y)
+                    </h3>
+                  </div>
+                  <ul>
+                    <li>#React</li>
+                    <li>#Angular</li>
+                    <li>#PHP</li>
+                    <li>#Laravel</li>
+                  </ul>
+                </div>
+                <i class="icon ion-md-arrow-forward"></i>
+                <i class="icon ion-md-arrow-down"></i>
+              </a>
+              <div class="description">
+                <a  target="_blank" href="https://www.shareableapps.com/"><i class="icon ion-md-open"></i> shareableapps.com<a></a>
+                <p>
+                  A no-code application allowing users to build mobile first web
+                  apps for promotions and events, and marketing.
+                </p>
+              </div>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <button id="section-up" onclick="backToTop()">
-        <img width="40" height="40" src="assets/up-arrow.svg" alt="back to top button">
+        <i class="toTop icon ion-md-arrow-up"></i>
       </button>
     </main>
     <canvas id="bgCanvas"></canvas>

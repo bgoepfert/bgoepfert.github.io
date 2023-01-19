@@ -266,7 +266,12 @@ main section {
   transition: opacity 0.3 s ease-in-out;
 }
 
-#section-title {
+#section-up i {
+  font-size: 24px;
+  color: rgb(207, 56, 91);
+}
+
+.section-title {
   margin-bottom: 50px;
   text-transform: capitalize;
   font-size: 32px;
@@ -389,4 +394,138 @@ main section {
 .expertise-body {
   margin-top: 10px;
   margin-left: 54px;
+}
+
+/* Career */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10vw;
+}
+
+.accordion-item {
+  background-color: transparent;
+  border-radius: 0.4rem;
+}
+
+.accordion-item hr {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.accordion-link {
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.accordion-link i {
+  color: #e7d5ff;
+  padding: 0.5rem;
+}
+
+.accordion-link ul {
+  display: flex;
+  align-items: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.accordion-link li {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.6);
+  padding-right: 5px;
+}
+
+.accordion-link-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+}
+
+.accordion-link-title {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.accordion-link-company {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+}
+
+.accordion-link-years {
+  font-size: 12px;
+  align-self: center;
+  font-weight: 500;
+  margin: 0;
+}
+
+.accordion-link .ion-md-arrow-down {
+  display: none;
+}
+
+.description {
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  background-color: transparent;
+  transition: max-height 650ms, background-color 650ms;
+}
+
+.description p {
+  color: #fff;
+  font-size: 15px;
+}
+
+.description a,
+.description a:link,
+.description a:visited {
+  color: rgb(207, 56, 91);
+  text-decoration: none;
+}
+
+.description a:hover {
+  color: rgb(46, 161, 203);
+  text-decoration: none;
+}
+
+#mail {
+  position: fixed;
+  right: 40px;
+  font-size: 32px;
+}
+
+#mail {
+  color: rgb(207, 56, 91);
+  text-decoration: none;
+}
+
+#mail:hover {
+  color: rgb(46, 161, 203);
+  text-decoration: none;
+}
+
+.accordion-item:target .description {
+  max-height: 20rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+}
+
+.accordion-item:target .accordion-link .ion-md-arrow-forward {
+  display: none;
+}
+
+.accordion-item:target .accordion-link .ion-md-arrow-down {
+  display: block;
 }
