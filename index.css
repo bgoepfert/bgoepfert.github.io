@@ -255,7 +255,7 @@ main section {
   position: fixed;
   width: 48px;
   height: 48px;
-  right: 40px;
+  right: 13px;
   bottom: 20px;
   padding: 0;
   margin: 0;
@@ -499,13 +499,13 @@ main section {
   text-decoration: none;
 }
 
-#mail {
+.logos {
   position: fixed;
   right: 13px;
   font-size: 32px;
 }
 
-#mail {
+.logos .icon {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -518,9 +518,13 @@ main section {
   text-decoration: none;
 }
 
-#mail:hover {
+.logos .icon:hover {
   background-image: -webkit-linear-gradient(white, rgb(46, 161, 203));
   text-decoration: none;
+}
+
+.ion-logo-linkedin {
+  font-size: 34px;
 }
 
 .accordion-item:target .description {
