@@ -256,8 +256,8 @@ main section {
   position: fixed;
   width: 48px;
   height: 48px;
-  right: 13px;
-  bottom: 20px;
+  right: 30px;
+  bottom: 30px;
   padding: 0;
   margin: 0;
   opacity: 0;
@@ -559,7 +559,8 @@ main section {
 
 .logos {
   position: fixed;
-  right: 13px;
+  top: 15px;
+  right: 30px;
   font-size: 32px;
 }
 
